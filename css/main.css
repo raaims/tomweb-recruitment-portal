@@ -81,3 +81,51 @@ border: 2px #fecd04 solid;
 color: #fecd04;
 font-size: 20px;
 }
+
+.dept-pics{
+  padding-top: 10vh;
+}
+
+.writing{
+  background: orange;
+
+}
+
+.photog{
+  background: blue;
+}
+
+.staff{
+  background: red;
+}
+
+.creatives{
+  background: violet;
+}
+
+.webtech{
+  background: green;
+}
+
+.text-pad{
+  padding: 2%;
+}
+
+.values{
+  background: #222222;
+  color: #EBEBEB;
+}
+
+.values span{
+  font-size: 14px;
+}
+
+.quotes{
+  background: #EBEBEB;
+  color: #111111;
+}
+
+.footer{
+  background: #222222;
+  color: #EBEBEB;
+}
