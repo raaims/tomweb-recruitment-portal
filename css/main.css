@@ -1,3 +1,7 @@
+body{
+  overflow-x: hidden;
+}
+
 .navbar-default{
   border-radius: 0px;
   border: none;
