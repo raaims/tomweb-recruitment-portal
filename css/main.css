@@ -2,10 +2,27 @@ body{
   overflow-x: hidden;
 }
 
+.img-block{
+  display: block;
+}
+
+.navbar-brand{
+  margin-top: -18px;
+}
+
+.navbar-brand img{
+  max-height: 55px;
+}
+
 .navbar-default{
   border-radius: 0px;
   border: none;
   background-color: #111111;
+}
+
+.navbar-default .navbar-nav > li > a {
+  font-size: 12px;
+  color: #FFFFFF;
 }
 
 .navbar-default .navbar-nav > li > a:hover {
@@ -22,9 +39,14 @@ body{
     background-color: transparent;
 }
 
-.navbar-nav > li > .dropdown-menu {
-    background: #111111;
-    border: none;
+.dropdown-menu > li > a{
+  color: #EBEBEB;
+  background: #111111;
+}
+
+.dropdown-menu{
+  background: #111111;
+  border: none;
 }
 
 .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
@@ -37,7 +59,7 @@ body{
   min-height: 100vh;
   background: #EBEBEB;
   padding-top: 20vh;
-  background-image: url('http://join.tomasinoweb.org/images/bghome.jpg');
+  background-image: url('../images/home-bg.jpg');
   background-position: bottom;
   background-attachment: fixed;
   background-size: cover;
@@ -91,24 +113,25 @@ font-size: 20px;
 }
 
 .writing{
-  background: orange;
-
+  background-color: #F3821F;
+  /* background-image: url('../images/home-logo-writomg.jpg');
+  background-position: center; */
 }
 
 .photog{
-  background: blue;
+  background-color: #25a4de;
 }
 
 .staff{
-  background: red;
+  background-color: #ec2a28;
 }
 
 .creatives{
-  background: violet;
+  background-color: #8252a0;
 }
 
 .webtech{
-  background: green;
+  background-color: #2eb462;
 }
 
 .text-pad{
@@ -127,6 +150,10 @@ font-size: 20px;
 .quotes{
   background: #EBEBEB;
   color: #111111;
+}
+
+blockquote{
+  border-left: 5px solid #FECD04;
 }
 
 .footer{
