@@ -30,7 +30,7 @@ include 'header.php';
     </div>
 </div>
 
-<div class='values container-fluid'>
+<div class='black-bg container-fluid'>
   <div class='row'>
     <div class="col-md-6 text-pad">
       <h3>Versatility at its finest</h3>
