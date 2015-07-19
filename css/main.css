@@ -55,11 +55,20 @@ body{
     background-color: #fecd04;
 }
 
+.header.home{
+  background-image: url('../images/home-bg.jpg');
+}
+
+.header.about{
+  background-image: url('../images/about-bg.jpg');
+  min-height: 40vh;
+  color: white;
+}
+
 .header{
   min-height: 100vh;
   background: #EBEBEB;
   padding-top: 20vh;
-  background-image: url('../images/home-bg.jpg');
   background-position: bottom;
   background-attachment: fixed;
   background-size: cover;
