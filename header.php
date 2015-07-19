@@ -41,7 +41,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#"><img src="images/tw.png" alt="TomasinoWeb Logo" class="img-responsive"></a>
+          <a class="navbar-brand" href="index.php"><img src="images/tw.png" alt="TomasinoWeb Logo" class="img-responsive"></a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -50,7 +50,7 @@
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">ABOUT <span class="caret"></span></a>
               <ul class="dropdown-menu">
-                <li><a href="#">ABOUT US</a></li>
+                <li><a href="about.html">ABOUT US</a></li>
                 <li><a href="#">THE CORE GROUP</a></li>
                 <li><a href="#">THE DEPARTMENTS</a></li>
                 <li><a href="#">THE EXECUTIVE TEAMS</a></li>
