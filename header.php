@@ -50,7 +50,7 @@
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">ABOUT <span class="caret"></span></a>
               <ul class="dropdown-menu">
-                <li><a href="about.html">ABOUT US</a></li>
+                <li><a href="about.php">ABOUT US</a></li>
                 <li><a href="#">THE CORE GROUP</a></li>
                 <li><a href="#">THE DEPARTMENTS</a></li>
                 <li><a href="#">THE EXECUTIVE TEAMS</a></li>
