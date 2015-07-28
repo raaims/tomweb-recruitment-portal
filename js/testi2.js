@@ -2,7 +2,7 @@
 var quotes=new Array()
 
 
-quotes[0]="<p>TomasinoWeb, for me is a very dynamic organization, yet with a simple goal, which is for Thomasians to get connected with information and reliable news they need during their stay in the University. Likewise, it also prepares its members to be professional after they graduate from UST. TomasinoWeb helped me learn how to go out of my comfort zone and experience an amazing college life.</p><footer>Jastyn Limon (Batch 5), Executive Secretary</footer>"
+quotes[0]="<p>TomasinoWeb, for me is a very dynamic organization, yet with a simple goal, which is for Thomasians to get connected with information and reliable news they need during their stay in the University. Likewise, it also prepares its members to be professional after they graduate from UST. TomasinoWeb helped me learn how to go out of my comfort zone and experience an amazing college life.</p><footer>Jastyn Limon (Batch 5), current Executive Secretary</footer>"
 
 quotes[1]="<p>Tomasinoweb will always be my second family in UST. This is where I realized my full potential as a student leader along with my fellow officers and members who are very passionate in making this organization what it is now. My college life would have never been 'extraordinary' without Tomweb!</p><footer>Marie Angeline Pagulayan (Batch 2), President (2011-2012)</footer>"
 

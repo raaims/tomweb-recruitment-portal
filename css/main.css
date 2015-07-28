@@ -156,6 +156,16 @@ font-size: 20px;
   font-size: 14px;
 }
 
+.black-bg .about{
+  max-width: 50em;
+  margin: auto;
+  margin-bottom: 4vh;
+}
+
+.black-bg .about h2{
+  color: #fecd04;
+}
+
 .quotes{
   background: #EBEBEB;
   color: #111111;
