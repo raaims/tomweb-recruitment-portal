@@ -13,10 +13,10 @@ include 'header.php';
         </div>
       </div>
 
-      <div class="container">
+      <div class="container-fluid">
         <div class="row">
           <div class="col-md-6">
-            picture
+            <img class="img-responsive" src="images/about-1.jpg" alt="" />
           </div>
 
           <div class="col-md-6">
@@ -24,19 +24,19 @@ include 'header.php';
           </div>
         </div>
 
-        <div class="row">
+        <div class="row light-gray-bg">
           <div class="col-md-6">
             <h2>Lorem ipsum</h2>
           </div>
 
           <div class="col-md-6">
-            picture
+            <img class="img-responsive" src="images/about-1.jpg" alt="" />
           </div>
         </div>
 
         <div class="row">
           <div class="col-md-6">
-            picture
+            <img class="img-responsive" src="images/about-1.jpg" alt="" />
           </div>
 
           <div class="col-md-6">
