@@ -20,18 +20,19 @@ include 'header.php';
           </div>
 
           <div class="col-md-6">
-            <h2>Lorem Ipsum</h2>
+            <h2>Founded to revolutionize the way information is accessed in UST</h2>
           </div>
         </div>
 
         <div class="row light-gray-bg">
-          <div class="col-md-6">
-            <h2>Lorem ipsum</h2>
-          </div>
-
-          <div class="col-md-6">
+          <div class="col-md-6 col-md-push-6">
             <img class="img-responsive" src="images/about-1.jpg" alt="" />
           </div>
+
+          <div class="col-md-6 col-md-pull-6">
+            <h2>Our identity</h2>
+          </div>
+
         </div>
 
         <div class="row">
@@ -40,8 +41,15 @@ include 'header.php';
           </div>
 
           <div class="col-md-6">
-            <h2>Lorem ipsum</h2>
+            <h2>How we do it</h2>
           </div>
+        </div>
+
+        <div class="row about-footer">
+          <h2>TomWebbers are not considered as mere members, they are family treasured even after their stay in the University.</h2>
+          <button type="button" class="btn btn-default">
+            Join Now!
+          </button>
         </div>
       </div>
 <?php
