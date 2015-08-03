@@ -65,6 +65,12 @@ body{
   color: white;
 }
 
+.header.core{
+  background-image: url('../images/home-bg.jpg');
+  min-height: 40vh;
+  color: white;
+}
+
 .header{
   min-height: 100vh;
   background: #EBEBEB;
@@ -156,13 +162,13 @@ font-size: 20px;
   font-size: 14px;
 }
 
-.black-bg .about{
+.black-bg .content{
   max-width: 50em;
   margin: auto;
   margin-bottom: 4vh;
 }
 
-.black-bg .about h2{
+.black-bg .content h2{
   color: #fecd04;
 }
 
