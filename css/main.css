@@ -35,7 +35,7 @@ body{
 }
 
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-    color: ##FECD04;
+    color: #FECD04;
     background-color: transparent;
 }
 

@@ -1,0 +1,208 @@
+body {
+  overflow-x: hidden;
+}
+
+.img-block {
+  display: block;
+}
+
+.navbar-brand {
+  margin-top: -10px;
+  img {
+    max-height: 40px;
+  }
+}
+
+.navbar-default {
+  border-radius: 0px;
+  border: none;
+  background-color: #111111;
+  .navbar-nav > {
+    li > a {
+      font-size: 12px;
+      color: #FFFFFF;
+      &:hover {
+        color: #FECD04;
+      }
+    }
+    .open > a {
+      background-color: #292a26;
+      color: #FECD04;
+      &:hover, &:focus {
+        background-color: #292a26;
+        color: #FECD04;
+      }
+    }
+    li > a {
+      &:hover, &:focus {
+        color: #FECD04;
+        background-color: transparent;
+      }
+    }
+  }
+}
+
+.dropdown-menu {
+  > li > a {
+    color: #EBEBEB;
+    background: #111111;
+    &:hover, &:focus {
+      text-decoration: none;
+      color: #111111;
+      background-color: #fecd04;
+    }
+  }
+  background: #111111;
+  border: none;
+}
+
+.header {
+  &.home {
+    background-image: url('../images/home-bg.jpg');
+  }
+  &.about {
+    background-image: url('../images/about-bg.jpg');
+    min-height: 40vh;
+    color: white;
+  }
+  &.core {
+    background-image: url('../images/home-bg.jpg');
+    min-height: 40vh;
+    color: white;
+  }
+  min-height: 100vh;
+  background: #EBEBEB;
+  padding-top: 20vh;
+  background-position: bottom;
+  background-attachment: fixed;
+  background-size: cover;
+  h1 {
+    font-size: 50px;
+  }
+  p {
+    font-size: 20px;
+    margin: 0 17% 0 17%;
+  }
+  button {
+    height: 75px;
+    width: 175px;
+    margin-top: 10vh;
+  }
+}
+
+.btn-default {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&0+0,0+100 */
+  background: -moz-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(255, 255, 255, 0)), color-stop(100%, rgba(255, 255, 255, 0)));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#00ffffff',GradientType=0 );
+  /* IE6-9 */
+  border: 2px #fecd04 solid;
+  color: #fecd04;
+  font-size: 20px;
+  &:hover {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fecd04+0,fecd04+100&0.05+0,0.05+100 */
+    background: -moz-linear-gradient(top, rgba(254, 205, 4, 0.05) 0%, rgba(254, 205, 4, 0.05) 100%);
+    /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(254, 205, 4, 0.05)), color-stop(100%, rgba(254, 205, 4, 0.05)));
+    /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, rgba(254, 205, 4, 0.05) 0%, rgba(254, 205, 4, 0.05) 100%);
+    /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, rgba(254, 205, 4, 0.05) 0%, rgba(254, 205, 4, 0.05) 100%);
+    /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, rgba(254, 205, 4, 0.05) 0%, rgba(254, 205, 4, 0.05) 100%);
+    /* IE10+ */
+    background: linear-gradient(to bottom, rgba(254, 205, 4, 0.05) 0%, rgba(254, 205, 4, 0.05) 100%);
+    /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0dfecd04', endColorstr='#0dfecd04',GradientType=0 );
+    /* IE6-9 */
+    border: 2px #fecd04 solid;
+    color: #fecd04;
+    font-size: 20px;
+  }
+}
+
+.dept-pics {
+  padding-top: 10vh;
+}
+
+.writing {
+  background-color: #F3821F;
+  /* background-image: url('../images/home-logo-writomg.jpg');
+  background-position: center; */
+}
+
+.photog {
+  background-color: #25a4de;
+}
+
+.staff {
+  background-color: #ec2a28;
+}
+
+.creatives {
+  background-color: #8252a0;
+}
+
+.webtech {
+  background-color: #2eb462;
+}
+
+.text-pad {
+  padding: 2%;
+}
+
+.black-bg {
+  background: #222222;
+  color: #EBEBEB;
+  span {
+    font-size: 14px;
+  }
+  .content {
+    max-width: 50em;
+    margin: auto;
+    margin-bottom: 4vh;
+    h2 {
+      color: #fecd04;
+    }
+  }
+}
+
+.quotes {
+  background: #EBEBEB;
+  color: #111111;
+}
+
+.about-img-1, .about-img-2, .about-img-3 {
+  min-height: 50vh;
+  background-position: center;
+  background-size: cover;
+}
+
+.about-img-1, .about-img-2, .about-img-3 {
+  background-image: url('../images/about-1.jpg');
+}
+
+.about-footer {
+  background-image: url('../images/about-bg.jpg');
+  color: #FECD04;
+  padding-bottom: 20px;
+}
+
+blockquote {
+  border-left: 5px solid #FECD04;
+}
+
+.footer {
+  background: #222222;
+  color: #EBEBEB;
+}
