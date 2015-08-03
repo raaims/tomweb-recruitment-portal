@@ -33,7 +33,7 @@
     <!-- NAVIGATION START -->
 
     <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-      <div class="container-fluid">
+      <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
             <span class="sr-only">Toggle navigation</span>
@@ -51,7 +51,7 @@
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">ABOUT <span class="caret"></span></a>
               <ul class="dropdown-menu">
                 <li><a href="about.php">ABOUT US</a></li>
-                <li><a href="#">THE CORE GROUP</a></li>
+                <li><a href="core.php">THE CORE GROUP</a></li>
                 <li><a href="#">THE DEPARTMENTS</a></li>
                 <li><a href="#">THE EXECUTIVE TEAMS</a></li>
               </ul>

@@ -14,11 +14,11 @@ include 'header.php';
     </button>
 
     <div class='row dept-pics collapsed'>
-      <div class="col-md-2"><img src="images/writing-illu-sm.png" alt="" class="center-block img-block"></div>
-      <div class="col-md-2"><img src="images/photog-illu-sm.png" alt="" class="center-block img-block"></div>
-      <div class="col-md-4"><img src="images/staff-illu-sm.png" alt="" class="center-block img-block"></div>
-      <div class="col-md-2"><img src="images/creatives-illu-sm.png" alt="" class="center-block img-block"></div>
-      <div class="col-md-2"><img src="images/webtech-illu-sm.png" alt="" class="center-block img-block"></div>
+    <div class="col-md-2"><img src="images/writing-illu-sm.png" alt="" class="center-block img-block"></div>
+    <div class="col-md-2"><img src="images/photog-illu-sm.png" alt="" class="center-block img-block"></div>
+    <div class="col-md-4"><img src="images/staff-illu-sm.png" alt="" class="center-block img-block"></div>
+    <div class="col-md-2"><img src="images/creatives-illu-sm.png" alt="" class="center-block img-block"></div>
+    <div class="col-md-2"><img src="images/webtech-illu-sm.png" alt="" class="center-block img-block"></div>
     </div>
 
     <div class='row'>
