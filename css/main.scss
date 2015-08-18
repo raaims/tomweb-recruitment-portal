@@ -214,6 +214,21 @@ body {
   }
   .position{
     font-size: 13px;
+    &.eb{
+      color: red;
+    }
+    &.wr{
+      color: orange;
+    }
+    &.pt{
+      color: blue;
+    }
+    &.cr{
+      color: purple;
+    }
+    &.web{
+      color: green;
+    }
   }
 }
 

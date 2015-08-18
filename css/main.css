@@ -167,6 +167,16 @@ body {
   font-size: 20px; }
 .core-officers .position {
   font-size: 13px; }
+  .core-officers .position.eb {
+    color: red; }
+  .core-officers .position.wr {
+    color: orange; }
+  .core-officers .position.pt {
+    color: blue; }
+  .core-officers .position.cr {
+    color: purple; }
+  .core-officers .position.web {
+    color: green; }
 
 blockquote {
   border-left: 5px solid #FECD04; }
