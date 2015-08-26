@@ -184,5 +184,14 @@ blockquote {
 .footer {
   background: #222222;
   color: #EBEBEB; }
+  .footer > .row {
+    padding-top: 5%;
+    padding-bottom: 5%; }
+
+.tw {
+  color: #FECD04; }
+
+.text-align-right {
+  text-align: right; }
 
 /*# sourceMappingURL=main.css.map */

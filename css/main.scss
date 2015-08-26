@@ -246,4 +246,16 @@ blockquote {
 .footer {
   background: #222222;
   color: #EBEBEB;
+  >.row{
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+}
+
+.tw{
+  color: $tomweb;
+}
+
+.text-align-right{
+  text-align: right;
 }

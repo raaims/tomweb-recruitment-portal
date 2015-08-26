@@ -3,13 +3,10 @@
 
 <div class='container-fluid footer'>
   <div class='row '>
-    <div class="col-md-4">
-      Get connected with TomasinoWeb<br>
-      Facebook <br>
-      Twitter
+    <div class="col-md-4 col-md-offset-2">
+      <span class="tw">TomasinoWeb</span> is the official online student publication and media organization of the University of Santo Tomas
     </div>
-    <div class="col-md-4">Sitemap?</div>
-    <div class="col-md-4">TomasinoWeb copyright</div>
+    <div class="col-md-4 text-align-right">Get connected with <span class="tw">TomasinoWeb</span></div>
   </div>
 </div>
 
