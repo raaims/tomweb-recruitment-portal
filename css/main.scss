@@ -1,4 +1,9 @@
 $tomweb: #FECD04;
+$eb: #ec2a28;
+$writing: #f3821f;
+$photog: #25a4de;
+$creatives: #8252a0;
+$webtech: #2eb462;
 
 body {
   overflow-x: hidden;
@@ -208,27 +213,29 @@ body {
   >.col-md-4{
     margin-top: 15px;
     margin-bottom: 15px;
+    >.img-circle{
+      &.eb{
+        border: 5px solid $eb;
+      }
+      &.writing{
+        border: 5px solid $writing;
+      }
+      &.photog{
+        border: 5px solid $photog;
+      }
+      &.creatives{
+        border: 5px solid $creatives;
+      }
+      &.webtech{
+        border: 5px solid $webtech;
+      }
+    }
   }
   .name{
     font-size: 20px;
   }
   .position{
     font-size: 13px;
-    &.eb{
-      color: red;
-    }
-    &.wr{
-      color: orange;
-    }
-    &.pt{
-      color: blue;
-    }
-    &.cr{
-      color: purple;
-    }
-    &.web{
-      color: green;
-    }
   }
 }
 

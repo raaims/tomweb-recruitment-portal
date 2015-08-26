@@ -163,20 +163,20 @@ body {
 .core-officers > .col-md-4 {
   margin-top: 15px;
   margin-bottom: 15px; }
+  .core-officers > .col-md-4 > .img-circle.eb {
+    border: 5px solid #ec2a28; }
+  .core-officers > .col-md-4 > .img-circle.writing {
+    border: 5px solid #f3821f; }
+  .core-officers > .col-md-4 > .img-circle.photog {
+    border: 5px solid #25a4de; }
+  .core-officers > .col-md-4 > .img-circle.creatives {
+    border: 5px solid #8252a0; }
+  .core-officers > .col-md-4 > .img-circle.webtech {
+    border: 5px solid #2eb462; }
 .core-officers .name {
   font-size: 20px; }
 .core-officers .position {
   font-size: 13px; }
-  .core-officers .position.eb {
-    color: red; }
-  .core-officers .position.wr {
-    color: orange; }
-  .core-officers .position.pt {
-    color: blue; }
-  .core-officers .position.cr {
-    color: purple; }
-  .core-officers .position.web {
-    color: green; }
 
 blockquote {
   border-left: 5px solid #FECD04; }
