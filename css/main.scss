@@ -68,18 +68,23 @@ body {
     background-image: url('../images/home-bg.jpg');
   }
   &.about {
-    background-image: url('../images/about-bg.jpg');
-    min-height: 40vh;
+    background-image: url('../images/2.jpg');
+    min-height: 350px;
     color: white;
   }
   &.core {
     background-image: url('../images/home-bg.jpg');
-    min-height: 40vh;
+    min-height: 350px;
+    color: white;
+  }
+  &.depts{
+    background-image: url('../images/about-bg.jpg');
+    min-height: 350px;
     color: white;
   }
   min-height: 100vh;
   background: #EBEBEB;
-  padding-top: 20vh;
+  padding-top: 165px;
   background-position: bottom;
   background-attachment: fixed;
   background-size: cover;
@@ -215,19 +220,19 @@ body {
     margin-bottom: 15px;
     >.img-circle{
       &.eb{
-        border: 5px solid $eb;
+        border: 6px solid $eb;
       }
       &.writing{
-        border: 5px solid $writing;
+        border: 6px solid $writing;
       }
       &.photog{
-        border: 5px solid $photog;
+        border: 6px solid $photog;
       }
       &.creatives{
-        border: 5px solid $creatives;
+        border: 6px solid $creatives;
       }
       &.webtech{
-        border: 5px solid $webtech;
+        border: 6px solid $webtech;
       }
     }
   }

@@ -42,19 +42,23 @@ body {
 .header {
   min-height: 100vh;
   background: #EBEBEB;
-  padding-top: 20vh;
+  padding-top: 165px;
   background-position: bottom;
   background-attachment: fixed;
   background-size: cover; }
   .header.home {
     background-image: url("../images/home-bg.jpg"); }
   .header.about {
-    background-image: url("../images/about-bg.jpg");
-    min-height: 40vh;
+    background-image: url("../images/2.jpg");
+    min-height: 350px;
     color: white; }
   .header.core {
     background-image: url("../images/home-bg.jpg");
-    min-height: 40vh;
+    min-height: 350px;
+    color: white; }
+  .header.depts {
+    background-image: url("../images/about-bg.jpg");
+    min-height: 350px;
     color: white; }
   .header h1 {
     font-size: 50px; }
@@ -164,15 +168,15 @@ body {
   margin-top: 15px;
   margin-bottom: 15px; }
   .core-officers > .col-md-4 > .img-circle.eb {
-    border: 5px solid #ec2a28; }
+    border: 6px solid #ec2a28; }
   .core-officers > .col-md-4 > .img-circle.writing {
-    border: 5px solid #f3821f; }
+    border: 6px solid #f3821f; }
   .core-officers > .col-md-4 > .img-circle.photog {
-    border: 5px solid #25a4de; }
+    border: 6px solid #25a4de; }
   .core-officers > .col-md-4 > .img-circle.creatives {
-    border: 5px solid #8252a0; }
+    border: 6px solid #8252a0; }
   .core-officers > .col-md-4 > .img-circle.webtech {
-    border: 5px solid #2eb462; }
+    border: 6px solid #2eb462; }
 .core-officers .name {
   font-size: 20px; }
 .core-officers .position {

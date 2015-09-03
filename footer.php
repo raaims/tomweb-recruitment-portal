@@ -6,7 +6,8 @@
     <div class="col-md-4 col-md-offset-2">
       <span class="tw">TomasinoWeb</span> is the official online student publication and media organization of the University of Santo Tomas
     </div>
-    <div class="col-md-4 text-align-right">Get connected with <span class="tw">TomasinoWeb</span></div>
+    <div class="col-md-4 text-align-right">Get connected with <span class="tw">TomasinoWeb</span><br>
+    Facebook Twitter Instagram</div>
   </div>
 </div>
 

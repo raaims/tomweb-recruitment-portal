@@ -1,4 +1,4 @@
-  <!DOCTYPE html>
+<!DOCTYPE html>
   <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -6,15 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>
-      <?php
-        if(isset($title) && !empty($title)){
-          echo $title;
-        }
-        else{
-          echo 'Empty';
-        }
-     ?>
-    </title>
+<?php
+if (isset($title) && !empty($title)) {
+	echo $title;
+} else {
+	echo 'Empty';
+}
+?>
+</title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -52,19 +51,19 @@
               <ul class="dropdown-menu">
                 <li><a href="about.php">ABOUT US</a></li>
                 <li><a href="core.php">THE CORE GROUP</a></li>
-                <li><a href="#">THE DEPARTMENTS</a></li>
-                <li><a href="#">THE EXECUTIVE TEAMS</a></li>
+                <li><a href="departments.php">THE DEPARTMENTS</a></li>
+                <li><a href="staff.php">THE EXECUTIVE TEAMS</a></li>
               </ul>
             </li>
             <li><a href="#">PROJECTS</a></li>
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">APPLICATION <span class="caret"></span></a>
               <ul class="dropdown-menu">
-                <li><a href="#">THE APPLICATION PROCESS</a></li>
-                <li><a href="#">APPLICATION FORM</a></li>
+                <li><a href="process.php">THE APPLICATION PROCESS</a></li>
+                <li><a href="apply.php">APPLICATION FORM</a></li>
               </ul>
             </li>
-            <li><a href="#">OFFICIAL WEBSITE</a></li>
+            <li><a href="http://tomasinoweb.org" target="_blank">OFFICIAL WEBSITE</a></li>
           </ul>
         </div><!-- /.navbar-collapse -->
       </div>
