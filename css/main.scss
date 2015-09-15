@@ -68,7 +68,7 @@ body {
     background-image: url('../images/home-bg.jpg');
   }
   &.about {
-    background-image: url('../images/2.jpg');
+    background-image: url('../images/about-bg.jpg');
     min-height: 350px;
     color: white;
   }
@@ -182,14 +182,16 @@ body {
   .content {
     max-width: 50em;
     margin: auto;
-    margin-bottom: 4vh;
     h2 {
       color: $tomweb;
     }
   }
+  &.about{
+    padding-bottom: 30px;
+  }
   &.core{
-    padding-top: 5%;
-    padding-bottom: 5%;
+    padding-top: 30px;
+    padding-bottom: 30px;
   }
 }
 
@@ -204,8 +206,12 @@ body {
   background-size: cover;
 }
 
-.about-img-1, .about-img-2, .about-img-3 {
+.about-img-1, .about-img-3 {
   background-image: url('../images/about-1.jpg');
+}
+
+.about-img-2{
+  background-image: url('../images/about-2.jpg');
 }
 
 .about-footer {
@@ -241,7 +247,23 @@ body {
   }
   .position{
     font-size: 13px;
+    font-style: italic;
+    a{
+      color: #222222;
+    }
   }
+}
+
+.description{
+  max-width: 500px;
+}
+
+.join{
+  max-width: 800px;
+}
+
+.glyphicons a{
+  color: #222222;
 }
 
 blockquote {
