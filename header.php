@@ -20,6 +20,16 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="media.css">
+    <?php 
+      if(isset($triggerMain2)){
+        if($triggerMain2 == true){
+          ?>
+          <link rel="stylesheet" href="css/main2.css">
+    <?php
+        }
+      } 
+    ?>
+
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -60,7 +70,7 @@
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">APPLICATION <span class="caret"></span></a>
               <ul class="dropdown-menu">
-                <li><a href="#">THE APPLICATION PROCESS</a></li>
+                <li><a href="appProcess.php">THE APPLICATION PROCESS</a></li>
                 <li><a href="#">APPLICATION FORM</a></li>
               </ul>
             </li>
