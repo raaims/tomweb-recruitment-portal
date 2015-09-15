@@ -1,8 +1,8 @@
 <?php
 $title = "Join - TomasinoWeb";
 include 'header.php';
- ?>
-<div class="header home container-fluid text-center">
+?>
+<div class="header home container-fluid text-center" style="color: white;">
     <h1 class="">JOIN US</h1>
     <p class="">Join TomasinoWeb. UST's official online student publication.
         A university-wide organization composed of student volunteers who
@@ -76,5 +76,5 @@ include 'header.php';
 
 <?php
 include 'footer.php';
- ?>
+?>
 <!-- TESTIMONAILS END -->

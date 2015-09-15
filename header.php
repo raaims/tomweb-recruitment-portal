@@ -55,7 +55,7 @@ if (isset($title) && !empty($title)) {
                 <li><a href="staff.php">THE EXECUTIVE TEAMS</a></li>
               </ul>
             </li>
-            <li><a href="#">PROJECTS</a></li>
+            <li><a href="projects.php">PROJECTS</a></li>
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">APPLICATION <span class="caret"></span></a>
               <ul class="dropdown-menu">

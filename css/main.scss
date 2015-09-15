@@ -72,14 +72,19 @@ body {
     color: white;
   }
   &.core {
-    background-image: url("../images/home-bg.jpg");
+    background-image: url("../images/about-core.jpg");
     min-height: 350px;
     color: white;
   }
   &.depts {
-    background-image: url("../images/about-bg.jpg");
+    background-image: url("../images/about-depts.jpg");
     min-height: 350px;
     color: white;
+  &.exec {
+    background-image: url("../images/about-exec.jpg");
+    min-height: 350px;
+    color: white;
+  }
   }
   h1 {
     font-size: 50px;
@@ -115,23 +120,9 @@ body {
   color: #FECD04;
   font-size: 20px;
   &:hover {
-    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/$tomweb+0,fecd04+100&0.05+0,0.05+100 */
-    background: -moz-linear-gradient(top, rgba(254, 205, 4, 0.05) 0%, rgba(254, 205, 4, 0.05) 100%);
-    /* FF3.6+ */
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(254, 205, 4, 0.05)), color-stop(100%, rgba(254, 205, 4, 0.05)));
-    /* Chrome,Safari4+ */
-    background: -webkit-linear-gradient(top, rgba(254, 205, 4, 0.05) 0%, rgba(254, 205, 4, 0.05) 100%);
-    /* Chrome10+,Safari5.1+ */
-    background: -o-linear-gradient(top, rgba(254, 205, 4, 0.05) 0%, rgba(254, 205, 4, 0.05) 100%);
-    /* Opera 11.10+ */
-    background: -ms-linear-gradient(top, rgba(254, 205, 4, 0.05) 0%, rgba(254, 205, 4, 0.05) 100%);
-    /* IE10+ */
-    background: linear-gradient(to bottom, rgba(254, 205, 4, 0.05) 0%, rgba(254, 205, 4, 0.05) 100%);
-    /* W3C */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0dfecd04', endColorstr='#0dfecd04',GradientType=0 );
-    /* IE6-9 */
     border: 2px #FECD04 solid;
-    color: #FECD04;
+    color: #EBEBEB;
+    background-color: #FECD04;
     font-size: 20px;
   }
 }
@@ -199,7 +190,7 @@ body {
   background-size: cover;
 }
 
-.about-img-1, .about-img-3 {
+.about-img-1 {
   background-image: url("../images/about-1.jpg");
 }
 
@@ -207,10 +198,49 @@ body {
   background-image: url("../images/about-2.jpg");
 }
 
+.about-img-3{
+  background-image: url("../images/about-3.jpg");
+}
+
+.about-depts{
+  min-height: 150px;
+  background-position: center;
+  background-size: fill;
+  &.writing{
+    background-image: url("../images/about-writing.jpg");
+  }
+  &.photog{
+  background-image: url("../images/about-photog.jpg");
+  }
+  &.creatives{
+  background-image: url("../images/about-creatives.jpg");
+  }
+  &.wt{
+  background-image: url("../images/about-wt.jpg");
+  }
+}
+
+
+.about-staff{
+  min-height: 350px;
+  background-image: url("../images/about-exec.jpg");
+  color: white;
+}
+
+.red-bg{
+  background-color: #ec2a28;
+}
+
 .about-footer {
-  background-image: url("../images/about-bg.jpg");
+  background-image: url("../images/join-footer.jpg");
+  background-size: cover;
+
   color: #FECD04;
   padding-bottom: 20px;
+}
+
+.about-core{
+  background-image: url("../images/about-core.jpg");
 }
 
 .core-officers {
@@ -278,6 +308,12 @@ blockquote {
 
 .text-align-right {
   text-align: right;
+}
+
+.application{
+  background-image: url("../images/application.jpg");
+  min-height: 350px;
+  color: white;
 }
 
 .app-steps {
