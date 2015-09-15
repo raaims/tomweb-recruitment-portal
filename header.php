@@ -59,8 +59,8 @@ if (isset($title) && !empty($title)) {
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">APPLICATION <span class="caret"></span></a>
               <ul class="dropdown-menu">
-                <li><a href="process.php">THE APPLICATION PROCESS</a></li>
-                <li><a href="apply.php">APPLICATION FORM</a></li>
+                <li><a href="appProcess.php">THE APPLICATION PROCESS</a></li>
+                <li><a href="http://goo.gl/forms/zWnEhLJunL">APPLICATION FORM</a></li>
               </ul>
             </li>
             <li><a href="http://tomasinoweb.org" target="_blank">OFFICIAL WEBSITE</a></li>

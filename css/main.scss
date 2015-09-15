@@ -1,10 +1,3 @@
-$tomweb: #FECD04;
-$eb: #ec2a28;
-$writing: #f3821f;
-$photog: #25a4de;
-$creatives: #8252a0;
-$webtech: #2eb462;
-
 body {
   overflow-x: hidden;
 }
@@ -29,20 +22,20 @@ body {
       font-size: 12px;
       color: #FFFFFF;
       &:hover {
-        color: $tomweb;
+        color: #FECD04;
       }
     }
     .open > a {
       background-color: #292a26;
-      color: $tomweb;
+      color: #FECD04;
       &:hover, &:focus {
         background-color: #292a26;
-        color: $tomweb;
+        color: #FECD04;
       }
     }
     li > a {
       &:hover, &:focus {
-        color: $tomweb;
+        color: #FECD04;
         background-color: transparent;
       }
     }
@@ -50,44 +43,44 @@ body {
 }
 
 .dropdown-menu {
+  background: #111111;
+  border: none;
   > li > a {
     color: #EBEBEB;
     background: #111111;
     &:hover, &:focus {
       text-decoration: none;
       color: #111111;
-      background-color: $tomweb;
+      background-color: #FECD04;
     }
   }
-  background: #111111;
-  border: none;
 }
 
 .header {
-  &.home {
-    background-image: url('../images/home-bg.jpg');
-  }
-  &.about {
-    background-image: url('../images/about-bg.jpg');
-    min-height: 350px;
-    color: white;
-  }
-  &.core {
-    background-image: url('../images/home-bg.jpg');
-    min-height: 350px;
-    color: white;
-  }
-  &.depts{
-    background-image: url('../images/about-bg.jpg');
-    min-height: 350px;
-    color: white;
-  }
   min-height: 100vh;
   background: #EBEBEB;
   padding-top: 165px;
   background-position: bottom;
   background-attachment: fixed;
   background-size: cover;
+  &.home {
+    background-image: url("../images/home-bg.jpg");
+  }
+  &.about {
+    background-image: url("../images/about-bg.jpg");
+    min-height: 350px;
+    color: white;
+  }
+  &.core {
+    background-image: url("../images/home-bg.jpg");
+    min-height: 350px;
+    color: white;
+  }
+  &.depts {
+    background-image: url("../images/about-bg.jpg");
+    min-height: 350px;
+    color: white;
+  }
   h1 {
     font-size: 50px;
   }
@@ -118,8 +111,8 @@ body {
   /* W3C */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#00ffffff',GradientType=0 );
   /* IE6-9 */
-  border: 2px $tomweb solid;
-  color: $tomweb;
+  border: 2px #FECD04 solid;
+  color: #FECD04;
   font-size: 20px;
   &:hover {
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/$tomweb+0,fecd04+100&0.05+0,0.05+100 */
@@ -137,8 +130,8 @@ body {
     /* W3C */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0dfecd04', endColorstr='#0dfecd04',GradientType=0 );
     /* IE6-9 */
-    border: 2px $tomweb solid;
-    color: $tomweb;
+    border: 2px #FECD04 solid;
+    color: #FECD04;
     font-size: 20px;
   }
 }
@@ -183,13 +176,13 @@ body {
     max-width: 50em;
     margin: auto;
     h2 {
-      color: $tomweb;
+      color: #FECD04;
     }
   }
-  &.about{
+  &.about {
     padding-bottom: 30px;
   }
-  &.core{
+  &.core {
     padding-top: 30px;
     padding-bottom: 30px;
   }
@@ -207,82 +200,106 @@ body {
 }
 
 .about-img-1, .about-img-3 {
-  background-image: url('../images/about-1.jpg');
+  background-image: url("../images/about-1.jpg");
 }
 
-.about-img-2{
-  background-image: url('../images/about-2.jpg');
+.about-img-2 {
+  background-image: url("../images/about-2.jpg");
 }
 
 .about-footer {
-  background-image: url('../images/about-bg.jpg');
-  color: $tomweb;
+  background-image: url("../images/about-bg.jpg");
+  color: #FECD04;
   padding-bottom: 20px;
 }
 
-.core-officers{
-  >.col-md-4{
+.core-officers {
+  > .col-md-4 {
     margin-top: 15px;
     margin-bottom: 15px;
-    >.img-circle{
-      &.eb{
-        border: 6px solid $eb;
+    > .img-circle {
+      &.eb {
+        border: 6px solid #ec2a28;
       }
-      &.writing{
-        border: 6px solid $writing;
+      &.writing {
+        border: 6px solid #f3821f;
       }
-      &.photog{
-        border: 6px solid $photog;
+      &.photog {
+        border: 6px solid #25a4de;
       }
-      &.creatives{
-        border: 6px solid $creatives;
+      &.creatives {
+        border: 6px solid #8252a0;
       }
-      &.webtech{
-        border: 6px solid $webtech;
+      &.webtech {
+        border: 6px solid #2eb462;
       }
     }
   }
-  .name{
+  .name {
     font-size: 20px;
   }
-  .position{
+  .position {
     font-size: 13px;
     font-style: italic;
-    a{
+    a {
       color: #222222;
     }
   }
 }
 
-.description{
+.description {
   max-width: 500px;
 }
 
-.join{
+.join {
   max-width: 800px;
 }
 
-.glyphicons a{
+.glyphicons a {
   color: #222222;
 }
 
 blockquote {
-  border-left: 5px solid $tomweb;
+  border-left: 5px solid #FECD04;
 }
 
 .footer {
   background: #222222;
   color: #EBEBEB;
-  >.row{
+  > .row {
     padding-top: 5%;
     padding-bottom: 5%;
   }
 }
 
-.tw{
-  color: $tomweb;
+.tw {
+  color: #FECD04;
 }
 
-.text-align-right{
+.text-align-right {
   text-align: right;
+}
+
+.app-steps {
+  list-style: none;
+  text-align: left;
+  li {
+    font-size: 30px;
+  }
+}
+
+span.count {
+  font-size: 30px;
+  color: #fecd04;
+}
+
+.list-container {
+  display: inline-block;
+}
+
+.appProcessDetails {
+  padding: 28px 0;
+  p {
+    font-size: 19px;
+  }
 }

@@ -214,4 +214,33 @@ blockquote {
 .text-align-right {
   text-align: right; }
 
+  .app-steps{
+  list-style: none;
+  text-align: left;
+}
+
+.app-steps li{
+  font-size: 30px;
+}
+
+span.count{
+  font-size: 30px;
+  color: #fecd04;
+}
+
+.list-container{
+  display: inline-block;
+}
+
+.appProcessDetails{
+  padding: 28px 0;
+
+}
+
+.appProcessDetails p{
+  font-size: 19px;
+}
+
+
+
 /*# sourceMappingURL=main.css.map */
