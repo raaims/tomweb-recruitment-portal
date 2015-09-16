@@ -69,10 +69,11 @@ body {
   .header p {
     font-size: 20px;
     margin: 0 17% 0 17%; }
-  .header button {
-    height: 75px;
+  .header .button {
     width: 175px;
-    margin-top: 10vh; }
+    margin-top: 10vh; 
+    padding: 20px 0;
+  }
 
 .btn-default {
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&0+0,0+100 */

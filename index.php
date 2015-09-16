@@ -9,9 +9,9 @@ include 'header.php';
         express dedication to their passion through digital media.
     </p>
 
-    <button type="button" class="btn btn-default">
+    <a href="http://goo.gl/forms/zWnEhLJunL" class="btn btn-default button" target="_blank">
       Join Now!
-    </button>
+    </a>
 
     <div class='row dept-pics collapsed'>
     <div class="col-md-2"><img src="images/writing-illu-sm.png" alt="" class="center-block img-block"></div>

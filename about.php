@@ -50,9 +50,9 @@ include 'header.php';
       <div class="container-fluid about-footer">
         <div class="container text-center join">
           <h3>TomWebbers are not considered as mere members, they are family treasured even after their stay in the University.</h3>
-          <button type="button" class="btn btn-default">
+          <a href="http://goo.gl/forms/zWnEhLJunL" class="btn btn-default button" target="_blank">
             Join Now!
-          </button>
+          </a>
         </div>
       </div>
 <?php

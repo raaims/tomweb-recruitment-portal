@@ -59,9 +59,9 @@ include 'header.php';
 	<div class="row about-footer">
 		<div class="col-md-8 col-md-offset-2 text-center">
 			<h2>TomWebbers are not considered as mere members, they are family treasured even after their stay in the University.</h2>
-          	<button type="button" class="btn btn-default">
-            Join Now!
-          </button>
+          	<a href="http://goo.gl/forms/zWnEhLJunL" class="btn btn-default button" target="_blank">
+          	  Join Now!
+          	</a>
 		</div>
 	</div>
 </div>

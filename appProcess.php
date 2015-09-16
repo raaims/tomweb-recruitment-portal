@@ -30,9 +30,9 @@ The application process will involve orientation, exam and interview. Applicant 
 Applicant will be notified of the results of his/her application through the contact details he/she has provided and this website.
 	</p>
 	<div class="text-center">
-	<button class="btn btn-default" type="button">
-		JOIN US
-	</button>
+	<a href="http://goo.gl/forms/zWnEhLJunL" class="btn btn-default button" target="_blank">
+      Join Now!
+    </a>
 	</div>
 	</div>
 </div>
